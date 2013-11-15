@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
 gem 'rails', '3.2.14'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -30,6 +32,7 @@ end
 
 group :production do
 	gem 'pg', '0.12.2'
+	gem 'rails_12factor'
 end
 
 # To use ActiveModel has_secure_password
